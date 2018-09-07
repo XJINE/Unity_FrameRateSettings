@@ -2,9 +2,7 @@
 
 Set Application.targetFrameRate from Inspector &amp; CommandLineArgs.
 
-## How to Use
-
-### Import to Your Project
+## Import to Your Project
 
 You can import this asset from UnityPackage.
 
@@ -16,6 +14,8 @@ You have to import following assets to use this asset.
 
 - [Unity_SingletonMonoBehaviour](https://github.com/XJINE/Unity_SingletonMonoBehaviour)
 - [Unity_CommandLineArgs](https://github.com/XJINE/Unity_CommandLineArgs)
+
+## How to Use
 
 ### Settings
 
