@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 
-public class FrameRateSettingsManager : SingletonMonoBehaviour<FrameRateSettingsManager>
+public class FrameRateSettings : SingletonMonoBehaviour<FrameRateSettings>
 {
     // NOTE:
     // vSyncCount = 0 means don't sync.
     // vSyncCount = 1 means every V blank.
+    // When set 2 in 60Hz, it becomes 60/2 = 30 frame/sec.
 
     [Range(0, 4)]
     public int vSyncCount = 1;
@@ -20,15 +21,12 @@ public class FrameRateSettingsManager : SingletonMonoBehaviour<FrameRateSettings
     {
         base.Awake();
 
-        int vSyncCount;
-        int targetFrameRate;
-
-        if (CommandLineArgs.GetValueAsInt("-vSyncCount", out vSyncCount))
+        if (CommandLineArgs.GetValueAsInt("-vSyncCount", out int vSyncCount))
         {
             this.vSyncCount = vSyncCount;
         }
 
-        if (CommandLineArgs.GetValueAsInt("-targetFrameRate", out targetFrameRate))
+        if (CommandLineArgs.GetValueAsInt("-targetFrameRate", out int targetFrameRate))
         {
             this.targetFrameRate = targetFrameRate;
         }

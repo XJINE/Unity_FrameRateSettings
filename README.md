@@ -1,4 +1,4 @@
-# Unity_FrameRateSettingsManager
+# Unity_FrameRateSettings
 
 Set Application.targetFrameRate from Inspector &amp; CommandLineArgs.
 
@@ -6,7 +6,7 @@ Set Application.targetFrameRate from Inspector &amp; CommandLineArgs.
 
 You can import this asset from UnityPackage.
 
-- [FrameRateSettingsManager.unitypackage](https://github.com/XJINE/Unity_FrameRateSettingsManager/blob/master/FrameRateSettingsManager.unitypackage)
+- [FrameRateSettings.unitypackage](https://github.com/XJINE/Unity_FrameRateSettings/blob/master/FrameRateSettings.unitypackage)
 
 ### Dependencies
 
