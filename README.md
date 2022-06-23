@@ -1,19 +1,22 @@
 # Unity_FrameRateSettings
 
-Set Application.targetFrameRate from Inspector &amp; CommandLineArgs.
+Set Application.targetFrameRate from Inspector.
 
-## Import to Your Project
+## Importing
 
-You can import this asset from UnityPackage.
+You can use Package Manager or import it directly.
 
-- [FrameRateSettings.unitypackage](https://github.com/XJINE/Unity_FrameRateSettings/blob/master/FrameRateSettings.unitypackage)
+```
+https://github.com/XJINE/Unity_FrameRateSettings.git?path=Assets/Packages/FrameRateSettings
+```
+
+NOTE: Because of the limitation of UnityPackageManager, it needs to install dependencies first.
 
 ### Dependencies
 
-You have to import following assets to use this asset.
+This project use following resources.
 
-- [Unity_SingletonMonoBehaviour](https://github.com/XJINE/Unity_SingletonMonoBehaviour)
-- [Unity_CommandLineArgs](https://github.com/XJINE/Unity_CommandLineArgs)
+- https://github.com/XJINE/Unity_SingletonMonoBehaviour
 
 ## How to Use
 
